@@ -66,10 +66,10 @@
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ff0-n9-IXB">
                                 <rect key="frame" x="275" y="499" width="62" height="35"/>
-                                <color key="backgroundColor" red="0.20339810650000001" green="0.19065459039999999" blue="0.17119875770000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.25544601521164023" green="0.23934495581403528" blue="0.21631636574530602" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" name="AccentColor"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Start" cornerStyle="large"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Start" cornerStyle="capsule"/>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="aCJ-of-gjq"/>
