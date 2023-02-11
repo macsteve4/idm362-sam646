@@ -314,8 +314,8 @@ Try to extend as far as you can!</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hf3-Gr-2nn">
-                                <rect key="frame" x="96.5" y="502" width="244" height="56"/>
-                                <string key="text">Then, start moving your neck side
+                                <rect key="frame" x="84.5" y="502" width="256" height="56"/>
+                                <string key="text">Then... start moving your neck side
 to side for another minute.
 Try to extend as far as you can!</string>
                                 <fontDescription key="fontDescription" name="TrebuchetMS" family="Trebuchet MS" pointSize="16"/>
@@ -350,6 +350,7 @@ Try to extend as far as you can!</string>
                             <constraint firstItem="W71-uu-KnD" firstAttribute="top" secondItem="Hf3-Gr-2nn" secondAttribute="top" id="Iez-Hq-kFw"/>
                             <constraint firstItem="W71-uu-KnD" firstAttribute="leading" secondItem="uUy-Bp-rnI" secondAttribute="leading" id="MLH-rX-OX1"/>
                             <constraint firstItem="aFw-L2-N9u" firstAttribute="top" secondItem="utZ-m1-ylo" secondAttribute="top" constant="27" id="Mbe-Ms-Fj9"/>
+                            <constraint firstItem="Hf3-Gr-2nn" firstAttribute="leading" secondItem="utZ-m1-ylo" secondAttribute="leading" constant="84.5" id="OgR-7i-xkW"/>
                             <constraint firstItem="nFM-kq-uj6" firstAttribute="baseline" secondItem="C1R-YJ-kZR" secondAttribute="baseline" id="UmO-df-r1G"/>
                             <constraint firstItem="utZ-m1-ylo" firstAttribute="bottom" secondItem="nFM-kq-uj6" secondAttribute="bottom" constant="14" id="Uwb-lO-tXT"/>
                             <constraint firstItem="uUy-Bp-rnI" firstAttribute="trailing" secondItem="0z5-ry-3Xn" secondAttribute="trailing" id="WVI-Xg-bBA"/>
@@ -359,7 +360,6 @@ Try to extend as far as you can!</string>
                             <constraint firstItem="RMh-FL-KNV" firstAttribute="top" secondItem="utZ-m1-ylo" secondAttribute="top" constant="20" id="avF-ZW-fLO"/>
                             <constraint firstItem="utZ-m1-ylo" firstAttribute="trailing" secondItem="MVB-4i-7qG" secondAttribute="trailing" constant="34.5" id="bbv-oS-rPE"/>
                             <constraint firstItem="MVB-4i-7qG" firstAttribute="leading" secondItem="utZ-m1-ylo" secondAttribute="leading" constant="85" id="d3P-bJ-X8Q"/>
-                            <constraint firstItem="Hf3-Gr-2nn" firstAttribute="leading" secondItem="utZ-m1-ylo" secondAttribute="leading" constant="96.5" id="dBL-15-gf3"/>
                             <constraint firstItem="C1R-YJ-kZR" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="3L2-Ed-rYJ" secondAttribute="leadingMargin" constant="242" id="iAB-hW-Q5O"/>
                             <constraint firstItem="utZ-m1-ylo" firstAttribute="trailing" relation="lessThanOrEqual" secondItem="aFw-L2-N9u" secondAttribute="trailing" constant="210" id="lsK-Fz-rQg"/>
                             <constraint firstItem="L63-x0-Cpw" firstAttribute="leading" secondItem="0z5-ry-3Xn" secondAttribute="leading" id="nMt-PN-VDl"/>
