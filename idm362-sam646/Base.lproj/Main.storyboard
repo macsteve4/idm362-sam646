@@ -29,7 +29,7 @@
         <!--Home-->
         <scene sceneID="ogp-gq-Mn0">
             <objects>
-                <viewController id="L3C-rs-cWT" sceneMemberID="viewController">
+                <viewController id="L3C-rs-cWT" customClass="ViewControllerHome" customModule="PostureCheck" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="zh5-cc-Smu">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -243,7 +243,7 @@
         <!--Check-->
         <scene sceneID="eO0-NZ-qjg">
             <objects>
-                <viewController title="Check" id="3Pf-cw-4tx" customClass="ViewController" customModule="PostureCheck" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Check" id="3Pf-cw-4tx" customClass="ViewControllerCheck" customModule="PostureCheck" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3L2-Ed-rYJ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -291,6 +291,9 @@ Try to extend as far as you can!</string>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="    Start!    " cornerStyle="capsule"/>
+                                <connections>
+                                    <action selector="timerButton:" destination="3Pf-cw-4tx" eventType="touchUpInside" id="vkd-X4-RGb"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="NeckFlex_1" translatesAutoresizingMaskIntoConstraints="NO" id="0z5-ry-3Xn">
                                 <rect key="frame" x="25" y="99" width="325" height="150"/>
@@ -373,6 +376,9 @@ Try to extend as far as you can!</string>
                     </view>
                     <tabBarItem key="tabBarItem" title="Options" image="gearshape.2.fill" catalog="system" id="ecy-gb-FaS"/>
                     <navigationItem key="navigationItem" id="gde-cV-TGT"/>
+                    <connections>
+                        <outlet property="timerCount" destination="RMh-FL-KNV" id="T6g-Ec-t8E"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Mqk-21-uqz" sceneMemberID="firstResponder"/>
             </objects>
