@@ -3,7 +3,6 @@
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
-        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -31,6 +30,9 @@
         </array>
         <array key="Poppins-Regular.ttf">
             <string>Poppins-Regular</string>
+        </array>
+        <array key="Poppins-SemiBold.ttf">
+            <string>Poppins-SemiBold</string>
         </array>
         <array key="Poppins-SemiBoldItalic.ttf">
             <string>Poppins-SemiBoldItalic</string>
@@ -300,137 +302,129 @@ your streak. Go get it started!</string>
                         <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Neck Flexes" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aFw-L2-N9u">
-                                <rect key="frame" x="16" y="27" width="149" height="35"/>
-                                <fontDescription key="fontDescription" name="Thonburi-Bold" family="Thonburi" pointSize="26"/>
-                                <color key="textColor" red="0.99113645390000005" green="0.46313837559999999" blue="0.20215608199999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="02:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RMh-FL-KNV">
-                                <rect key="frame" x="249" y="20" width="110" height="49"/>
-                                <fontDescription key="fontDescription" name="Thonburi-Light" family="Thonburi" pointSize="37"/>
-                                <color key="textColor" red="0.99113645390000005" green="0.46313837559999999" blue="0.20215608199999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MVB-4i-7qG">
-                                <rect key="frame" x="85" y="257" width="255.5" height="60"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="XI9-KK-Hpz">
+                                <rect key="frame" x="16" y="20" width="343" height="486"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="67" translatesAutoresizingMaskIntoConstraints="NO" id="gLW-sK-ZpB">
+                                        <rect key="frame" x="0.0" y="0.0" width="343" height="62"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Neck Flexes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ld5-T8-Erq">
+                                                <rect key="frame" x="0.0" y="0.0" width="152" height="62"/>
+                                                <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="24"/>
+                                                <color key="textColor" red="0.93333339689999995" green="0.49803921579999999" blue="0.27843138579999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="02:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DVn-yu-8Xn">
+                                                <rect key="frame" x="219" y="0.0" width="124" height="62"/>
+                                                <fontDescription key="fontDescription" name="Poppins-Bold" family="Poppins" pointSize="44"/>
+                                                <color key="textColor" red="0.93333339689999995" green="0.49803921579999999" blue="0.27843138579999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Neck_Flexes_Step1" translatesAutoresizingMaskIntoConstraints="NO" id="IIM-qb-sld">
+                                        <rect key="frame" x="0.0" y="78" width="343" height="156"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="156" id="J8y-h3-dkY"/>
+                                        </constraints>
+                                    </imageView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zd9-IK-PVO">
+                                        <rect key="frame" x="0.0" y="250" width="343" height="24"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="1." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jl1-Xp-j9q">
+                                                <rect key="frame" x="0.0" y="0.0" width="94" height="24"/>
+                                                <fontDescription key="fontDescription" name="Poppins-Bold" family="Poppins" pointSize="17"/>
+                                                <color key="textColor" red="0.93333339689999995" green="0.49803921579999999" blue="0.27843138579999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Check Step One - Lorem Ipsum" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jHs-lu-DkX">
+                                                <rect key="frame" x="94" y="0.0" width="249" height="24"/>
+                                                <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="16"/>
+                                                <color key="textColor" red="0.93333339689999995" green="0.49803921579999999" blue="0.27843138579999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Neck_Flexes_Step2" translatesAutoresizingMaskIntoConstraints="NO" id="cyv-ku-YdC">
+                                        <rect key="frame" x="0.0" y="290" width="343" height="156"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="156" id="QX1-3c-ldR"/>
+                                        </constraints>
+                                    </imageView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vaa-PE-B3O">
+                                        <rect key="frame" x="0.0" y="462" width="343" height="24"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="2." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mMx-p6-9vL">
+                                                <rect key="frame" x="0.0" y="0.0" width="95" height="24"/>
+                                                <fontDescription key="fontDescription" name="Poppins-Bold" family="Poppins" pointSize="17"/>
+                                                <color key="textColor" red="0.93333339689999995" green="0.49803921579999999" blue="0.27843138579999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Check Step Two - Lorem Ipsum" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vlq-sd-mff">
+                                                <rect key="frame" x="95" y="0.0" width="248" height="24"/>
+                                                <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="16"/>
+                                                <color key="textColor" red="0.93333339689999995" green="0.49803921579999999" blue="0.27843138579999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="60" id="j4p-Lq-36Q"/>
+                                    <constraint firstAttribute="trailing" secondItem="gLW-sK-ZpB" secondAttribute="trailing" id="BxC-tW-egT"/>
+                                    <constraint firstItem="gLW-sK-ZpB" firstAttribute="leading" secondItem="XI9-KK-Hpz" secondAttribute="leading" id="ijq-7M-wEc"/>
+                                    <constraint firstItem="zd9-IK-PVO" firstAttribute="leading" secondItem="XI9-KK-Hpz" secondAttribute="leading" id="nKj-hM-0W1"/>
                                 </constraints>
-                                <string key="text">For 1 minute, begin by moving your
-neck forwards and backwards.
-Try to extend as far as you can!</string>
-                                <fontDescription key="fontDescription" name="TrebuchetMS" family="Trebuchet MS" pointSize="16"/>
-                                <color key="textColor" red="0.99113645390000005" green="0.46313837559999999" blue="0.20215608199999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nFM-kq-uj6">
-                                <rect key="frame" x="16" y="589" width="107" height="44"/>
-                                <color key="backgroundColor" red="0.25544601519999999" green="0.23934495580000001" blue="0.21631636570000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="44" id="HOA-aj-TEr"/>
-                                </constraints>
-                                <color key="tintColor" name="AccentColor"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title=" Complete " cornerStyle="capsule"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C1R-YJ-kZR">
-                                <rect key="frame" x="258" y="589" width="101" height="44"/>
-                                <color key="backgroundColor" red="0.87197213959999997" green="0.462097227" blue="0.2585304122" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="44" id="2yG-Kz-Ekm"/>
-                                </constraints>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="    Start!    " cornerStyle="capsule"/>
-                                <connections>
-                                    <action selector="timerButton:" destination="3Pf-cw-4tx" eventType="touchUpInside" id="vkd-X4-RGb"/>
-                                </connections>
-                            </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="NeckFlex_1" translatesAutoresizingMaskIntoConstraints="NO" id="0z5-ry-3Xn">
-                                <rect key="frame" x="25" y="99" width="325" height="150"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="150" id="Tx2-sJ-XwT"/>
-                                </constraints>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="NeckFlex_2" translatesAutoresizingMaskIntoConstraints="NO" id="uUy-Bp-rnI">
-                                <rect key="frame" x="25" y="344" width="325" height="150"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="150" id="aw2-Zm-acR"/>
-                                </constraints>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L63-x0-Cpw">
-                                <rect key="frame" x="25" y="257" width="23" height="32"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="32" id="XNt-R1-hDe"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Thonburi-Bold" family="Thonburi" pointSize="23"/>
-                                <color key="textColor" red="0.99113645390000005" green="0.46313837559999999" blue="0.20215608199999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hf3-Gr-2nn">
-                                <rect key="frame" x="84.5" y="502" width="256" height="56"/>
-                                <string key="text">Then... start moving your neck side
-to side for another minute.
-Try to extend as far as you can!</string>
-                                <fontDescription key="fontDescription" name="TrebuchetMS" family="Trebuchet MS" pointSize="16"/>
-                                <color key="textColor" red="0.99113645390000005" green="0.46313837559999999" blue="0.20215608199999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W71-uu-KnD">
-                                <rect key="frame" x="25" y="502" width="23" height="32"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="32" id="dH1-q5-VFB"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Thonburi-Bold" family="Thonburi" pointSize="23"/>
-                                <color key="textColor" red="0.99113645390000005" green="0.46313837559999999" blue="0.20215608199999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="147" translatesAutoresizingMaskIntoConstraints="NO" id="xVU-0Q-emJ">
+                                <rect key="frame" x="16" y="591" width="343" height="34"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lSs-3M-69Z">
+                                        <rect key="frame" x="0.0" y="0.0" width="98" height="34"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content="Complete">
+                                                    <attributes>
+                                                        <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                        <font key="NSFont" size="14" name="Poppins-SemiBoldItalic"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                            <color key="baseForegroundColor" red="0.93333339689999995" green="0.49803921579999999" blue="0.27843138579999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <color key="baseBackgroundColor" red="0.270588249" green="0.25490197539999998" blue="0.2352941036" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </buttonConfiguration>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LB3-YC-j9D">
+                                        <rect key="frame" x="245" y="0.0" width="98" height="34"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content="Start!">
+                                                    <attributes>
+                                                        <font key="NSFont" size="14" name="Poppins-SemiBoldItalic"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                            <color key="baseBackgroundColor" red="0.87197213959999997" green="0.462097227" blue="0.2585304122" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </buttonConfiguration>
+                                    </button>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="utZ-m1-ylo"/>
                         <color key="backgroundColor" red="0.17071759259259256" green="0.16869263447803579" blue="0.16502422824422894" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <color key="tintColor" red="0.96689504380000002" green="0.75788911049999996" blue="0.44394523800000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
-                            <constraint firstItem="MVB-4i-7qG" firstAttribute="top" secondItem="L63-x0-Cpw" secondAttribute="top" id="0Rx-3s-AGe"/>
-                            <constraint firstItem="utZ-m1-ylo" firstAttribute="trailing" relation="lessThanOrEqual" secondItem="nFM-kq-uj6" secondAttribute="trailing" constant="252" id="0XO-z9-pWt"/>
-                            <constraint firstItem="utZ-m1-ylo" firstAttribute="trailing" relation="lessThanOrEqual" secondItem="L63-x0-Cpw" secondAttribute="trailing" constant="327" id="2gd-Ew-hvd"/>
-                            <constraint firstItem="utZ-m1-ylo" firstAttribute="trailing" secondItem="C1R-YJ-kZR" secondAttribute="trailing" constant="16" id="37p-5S-5of"/>
-                            <constraint firstItem="W71-uu-KnD" firstAttribute="top" secondItem="uUy-Bp-rnI" secondAttribute="bottom" constant="8" symbolic="YES" id="3Dd-JA-T2Y"/>
-                            <constraint firstItem="uUy-Bp-rnI" firstAttribute="leading" secondItem="L63-x0-Cpw" secondAttribute="leading" id="3g3-li-Ybr"/>
-                            <constraint firstItem="utZ-m1-ylo" firstAttribute="trailing" secondItem="RMh-FL-KNV" secondAttribute="trailing" constant="16" id="7ya-vp-V1X"/>
-                            <constraint firstItem="aFw-L2-N9u" firstAttribute="leading" secondItem="utZ-m1-ylo" secondAttribute="leading" constant="16" id="AJU-Iu-UIg"/>
-                            <constraint firstItem="utZ-m1-ylo" firstAttribute="bottom" secondItem="C1R-YJ-kZR" secondAttribute="bottom" constant="14" id="BAb-m3-26N"/>
-                            <constraint firstItem="MVB-4i-7qG" firstAttribute="top" secondItem="0z5-ry-3Xn" secondAttribute="bottom" constant="8" symbolic="YES" id="CBv-jf-9Yh"/>
-                            <constraint firstItem="uUy-Bp-rnI" firstAttribute="top" secondItem="MVB-4i-7qG" secondAttribute="bottom" constant="27" id="G5h-7h-2XD"/>
-                            <constraint firstItem="W71-uu-KnD" firstAttribute="top" secondItem="Hf3-Gr-2nn" secondAttribute="top" id="Iez-Hq-kFw"/>
-                            <constraint firstItem="W71-uu-KnD" firstAttribute="leading" secondItem="uUy-Bp-rnI" secondAttribute="leading" id="MLH-rX-OX1"/>
-                            <constraint firstItem="aFw-L2-N9u" firstAttribute="top" secondItem="utZ-m1-ylo" secondAttribute="top" constant="27" id="Mbe-Ms-Fj9"/>
-                            <constraint firstItem="Hf3-Gr-2nn" firstAttribute="leading" secondItem="utZ-m1-ylo" secondAttribute="leading" constant="84.5" id="OgR-7i-xkW"/>
-                            <constraint firstItem="nFM-kq-uj6" firstAttribute="baseline" secondItem="C1R-YJ-kZR" secondAttribute="baseline" id="UmO-df-r1G"/>
-                            <constraint firstItem="utZ-m1-ylo" firstAttribute="bottom" secondItem="nFM-kq-uj6" secondAttribute="bottom" constant="14" id="Uwb-lO-tXT"/>
-                            <constraint firstItem="uUy-Bp-rnI" firstAttribute="trailing" secondItem="0z5-ry-3Xn" secondAttribute="trailing" id="WVI-Xg-bBA"/>
-                            <constraint firstItem="0z5-ry-3Xn" firstAttribute="centerX" secondItem="3L2-Ed-rYJ" secondAttribute="centerX" id="XX0-uY-gll"/>
-                            <constraint firstItem="nFM-kq-uj6" firstAttribute="leading" secondItem="aFw-L2-N9u" secondAttribute="leading" id="YFN-v8-QeH"/>
-                            <constraint firstItem="utZ-m1-ylo" firstAttribute="trailing" secondItem="Hf3-Gr-2nn" secondAttribute="trailing" constant="34.5" id="Zet-4R-417"/>
-                            <constraint firstItem="RMh-FL-KNV" firstAttribute="top" secondItem="utZ-m1-ylo" secondAttribute="top" constant="20" id="avF-ZW-fLO"/>
-                            <constraint firstItem="utZ-m1-ylo" firstAttribute="trailing" secondItem="MVB-4i-7qG" secondAttribute="trailing" constant="34.5" id="bbv-oS-rPE"/>
-                            <constraint firstItem="MVB-4i-7qG" firstAttribute="leading" secondItem="utZ-m1-ylo" secondAttribute="leading" constant="85" id="d3P-bJ-X8Q"/>
-                            <constraint firstItem="C1R-YJ-kZR" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="3L2-Ed-rYJ" secondAttribute="leadingMargin" constant="242" id="iAB-hW-Q5O"/>
-                            <constraint firstItem="utZ-m1-ylo" firstAttribute="trailing" relation="lessThanOrEqual" secondItem="aFw-L2-N9u" secondAttribute="trailing" constant="210" id="lsK-Fz-rQg"/>
-                            <constraint firstItem="L63-x0-Cpw" firstAttribute="leading" secondItem="0z5-ry-3Xn" secondAttribute="leading" id="nMt-PN-VDl"/>
-                            <constraint firstItem="L63-x0-Cpw" firstAttribute="top" secondItem="0z5-ry-3Xn" secondAttribute="bottom" constant="8" symbolic="YES" id="rIp-Ec-s7f"/>
-                            <constraint firstItem="0z5-ry-3Xn" firstAttribute="top" secondItem="RMh-FL-KNV" secondAttribute="bottom" constant="30" id="sdu-pT-rac"/>
-                            <constraint firstItem="nFM-kq-uj6" firstAttribute="leading" secondItem="utZ-m1-ylo" secondAttribute="leading" constant="16" id="tat-eP-wwe"/>
-                            <constraint firstItem="utZ-m1-ylo" firstAttribute="trailing" relation="lessThanOrEqual" secondItem="W71-uu-KnD" secondAttribute="trailing" constant="327" id="tlT-nj-qtT"/>
-                            <constraint firstItem="0z5-ry-3Xn" firstAttribute="leading" secondItem="utZ-m1-ylo" secondAttribute="leading" constant="25" id="vub-fq-QBK"/>
-                            <constraint firstItem="RMh-FL-KNV" firstAttribute="leading" relation="lessThanOrEqual" secondItem="utZ-m1-ylo" secondAttribute="leading" constant="249" id="zgO-Tr-bov"/>
+                            <constraint firstItem="utZ-m1-ylo" firstAttribute="trailing" secondItem="XI9-KK-Hpz" secondAttribute="trailing" constant="16" id="4a7-lH-VTE"/>
+                            <constraint firstItem="xVU-0Q-emJ" firstAttribute="leading" secondItem="utZ-m1-ylo" secondAttribute="leading" constant="16" id="Lsz-jW-Zdv"/>
+                            <constraint firstItem="XI9-KK-Hpz" firstAttribute="leading" secondItem="utZ-m1-ylo" secondAttribute="leading" constant="16" id="VQz-UK-QbH"/>
+                            <constraint firstItem="utZ-m1-ylo" firstAttribute="trailing" secondItem="xVU-0Q-emJ" secondAttribute="trailing" constant="16" id="ZLP-PG-GIc"/>
+                            <constraint firstItem="XI9-KK-Hpz" firstAttribute="top" secondItem="utZ-m1-ylo" secondAttribute="top" constant="20" id="cR2-lJ-LIc"/>
+                            <constraint firstItem="utZ-m1-ylo" firstAttribute="bottom" secondItem="xVU-0Q-emJ" secondAttribute="bottom" constant="22" id="rhf-8G-trI"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Options" image="gearshape.2.fill" catalog="system" id="ecy-gb-FaS"/>
                     <navigationItem key="navigationItem" id="gde-cV-TGT"/>
-                    <connections>
-                        <outlet property="timerCount" destination="RMh-FL-KNV" id="T6g-Ec-t8E"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Mqk-21-uqz" sceneMemberID="firstResponder"/>
             </objects>
@@ -439,13 +433,10 @@ Try to extend as far as you can!</string>
     </scenes>
     <resources>
         <image name="Icon_Ref" width="128" height="128"/>
-        <image name="NeckFlex_1" width="612" height="278"/>
-        <image name="NeckFlex_2" width="612" height="278"/>
         <image name="Neck_Flexes" width="612" height="540"/>
+        <image name="Neck_Flexes_Step1" width="612" height="278"/>
+        <image name="Neck_Flexes_Step2" width="612" height="278"/>
         <image name="gearshape.2.fill" catalog="system" width="128" height="101"/>
         <image name="house.fill" catalog="system" width="128" height="104"/>
-        <namedColor name="AccentColor">
-            <color red="1" green="0.50499999523162842" blue="0.11900000274181366" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
     </resources>
 </document>
