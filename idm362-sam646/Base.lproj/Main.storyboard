@@ -229,7 +229,7 @@
                                                 </fragment>
                                                 <fragment content="🧨">
                                                     <attributes>
-                                                        <font key="NSFont" size="18" name=".AppleColorEmojiUI"/>
+                                                        <font key="NSFont" metaFont="system" size="18"/>
                                                         <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                     </attributes>
                                                 </fragment>

@@ -15,6 +15,7 @@
 		82E7B3AF29803D00002FEF30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82E7B3AD29803D00002FEF30 /* LaunchScreen.storyboard */; };
 		82EE413C29B03AA2004CCA76 /* ViewControllerCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EE413B29B03AA2004CCA76 /* ViewControllerCheck.swift */; };
 		82EE413E29B03BA8004CCA76 /* ViewControllerHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EE413D29B03BA8004CCA76 /* ViewControllerHome.swift */; };
+		82F0C5AB29C657150062616B /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 82F0C5A929C657150062616B /* Model.xcdatamodeld */; };
 		82F9B3E029B43FA600010902 /* Poppins-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 82F9B3CD29B43FA600010902 /* Poppins-ExtraLight.ttf */; };
 		82F9B3E129B43FA600010902 /* Poppins-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 82F9B3CE29B43FA600010902 /* Poppins-ThinItalic.ttf */; };
 		82F9B3E229B43FA600010902 /* Poppins-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 82F9B3CF29B43FA600010902 /* Poppins-ExtraLightItalic.ttf */; };
@@ -47,6 +48,7 @@
 		82E7B3B029803D00002FEF30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		82EE413B29B03AA2004CCA76 /* ViewControllerCheck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerCheck.swift; sourceTree = "<group>"; };
 		82EE413D29B03BA8004CCA76 /* ViewControllerHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerHome.swift; sourceTree = "<group>"; };
+		82F0C5AA29C657150062616B /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		82F9B3CD29B43FA600010902 /* Poppins-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLight.ttf"; sourceTree = "<group>"; };
 		82F9B3CE29B43FA600010902 /* Poppins-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ThinItalic.ttf"; sourceTree = "<group>"; };
 		82F9B3CF29B43FA600010902 /* Poppins-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 				82E7B3AB29803D00002FEF30 /* Assets.xcassets */,
 				82E7B3AD29803D00002FEF30 /* LaunchScreen.storyboard */,
 				82E7B3B029803D00002FEF30 /* Info.plist */,
+				82F0C5A929C657150062616B /* Model.xcdatamodeld */,
 			);
 			path = "idm362-sam646";
 			sourceTree = "<group>";
@@ -233,6 +236,7 @@
 				82E7B3A529803CFE002FEF30 /* SceneDelegate.swift in Sources */,
 				82EE413C29B03AA2004CCA76 /* ViewControllerCheck.swift in Sources */,
 				82EE413E29B03BA8004CCA76 /* ViewControllerHome.swift in Sources */,
+				82F0C5AB29C657150062616B /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,6 +452,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		82F0C5A929C657150062616B /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				82F0C5AA29C657150062616B /* Model.xcdatamodel */,
+			);
+			currentVersion = 82F0C5AA29C657150062616B /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 82E7B39729803CFE002FEF30 /* Project object */;
 }

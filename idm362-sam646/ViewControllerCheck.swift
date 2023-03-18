@@ -6,20 +6,37 @@
 //
 
 import UIKit
+import CoreData
 
 class ViewControllerCheck: UIViewController {
-
-    @IBOutlet weak var timerCount: UILabel!
+    
+    // Link Check core data to the checkobj
+    var checkObj: [NSManagedObject] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
     }
     
     
-    @IBAction func timerButton(_ sender: Any) {
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        guard let appDelegate = UIApplication.shared.delegate as? AppDelegate else {
+            return
+        }
+        
+        let managedContent = appDelegate.persistentContainer.viewContext
+        
+        let fetchRequest = NSFetchRequest<NSManagedObject>(entityName: "Check")
+        
+        do {
+            checkObj = try managedContent.fetch(fetchRequest)
+        } catch let error as NSError {
+            print("Could not fetch. \(error.userInfo)")
+        }
         
     }
-    
 }
+
