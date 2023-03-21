@@ -10,6 +10,16 @@ import CoreData
 
 class ViewControllerCheck: UIViewController {
     
+    
+    var vCounter:Int = 0
+    
+    @IBAction func addstreakButton(_ sender: Any) {
+        vCounter += 1
+        /* // make this somehow passthrough
+        streaknumberLabel.text = String
+         */
+    }
+    
     // Link Check core data to the checkobj
     var checkObj: [NSManagedObject] = []
     
@@ -38,5 +48,8 @@ class ViewControllerCheck: UIViewController {
         }
         
     }
+    
+    
+    
 }
 

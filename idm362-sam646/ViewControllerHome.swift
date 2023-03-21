@@ -9,12 +9,19 @@ import UIKit
 
 class ViewControllerHome: UIViewController {
 
+    @IBOutlet weak var streaknumberLabel: UILabel!
+    @IBOutlet weak var frontname: UILabel!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        let vc = storyboard?.instantiateViewController(withIdentifier: "options") as! ViewController
+        vc.completionHandler = { text in
+            self.frontname.text = text
+        }
     }
-    
+        // Do any additional setup after loading the view.
+     
 
     /*
     // MARK: - Navigation
