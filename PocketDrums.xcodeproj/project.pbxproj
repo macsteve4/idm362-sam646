@@ -16,6 +16,7 @@
 		82EE413C29B03AA2004CCA76 /* ViewControllerCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EE413B29B03AA2004CCA76 /* ViewControllerCheck.swift */; };
 		82EE413E29B03BA8004CCA76 /* ViewControllerHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EE413D29B03BA8004CCA76 /* ViewControllerHome.swift */; };
 		82F0C5AB29C657150062616B /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 82F0C5A929C657150062616B /* Model.xcdatamodeld */; };
+		82F9AA2C29CB8276008C3CC5 /* sounds in Resources */ = {isa = PBXBuildFile; fileRef = 82F9AA2B29CB8276008C3CC5 /* sounds */; };
 		82F9B3E029B43FA600010902 /* Poppins-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 82F9B3CD29B43FA600010902 /* Poppins-ExtraLight.ttf */; };
 		82F9B3E129B43FA600010902 /* Poppins-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 82F9B3CE29B43FA600010902 /* Poppins-ThinItalic.ttf */; };
 		82F9B3E229B43FA600010902 /* Poppins-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 82F9B3CF29B43FA600010902 /* Poppins-ExtraLightItalic.ttf */; };
@@ -38,7 +39,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		82E7B39F29803CFE002FEF30 /* PostureCheck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PostureCheck.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		82E7B39F29803CFE002FEF30 /* PocketDrums.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PocketDrums.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82E7B3A229803CFE002FEF30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		82E7B3A429803CFE002FEF30 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		82E7B3A629803CFE002FEF30 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +50,7 @@
 		82EE413B29B03AA2004CCA76 /* ViewControllerCheck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerCheck.swift; sourceTree = "<group>"; };
 		82EE413D29B03BA8004CCA76 /* ViewControllerHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerHome.swift; sourceTree = "<group>"; };
 		82F0C5AA29C657150062616B /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		82F9AA2B29CB8276008C3CC5 /* sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = sounds; sourceTree = "<group>"; };
 		82F9B3CD29B43FA600010902 /* Poppins-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLight.ttf"; sourceTree = "<group>"; };
 		82F9B3CE29B43FA600010902 /* Poppins-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ThinItalic.ttf"; sourceTree = "<group>"; };
 		82F9B3CF29B43FA600010902 /* Poppins-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
@@ -92,7 +94,7 @@
 		82E7B3A029803CFE002FEF30 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				82E7B39F29803CFE002FEF30 /* PostureCheck.app */,
+				82E7B39F29803CFE002FEF30 /* PocketDrums.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -111,6 +113,7 @@
 				82E7B3AD29803D00002FEF30 /* LaunchScreen.storyboard */,
 				82E7B3B029803D00002FEF30 /* Info.plist */,
 				82F0C5A929C657150062616B /* Model.xcdatamodeld */,
+				82F9AA2B29CB8276008C3CC5 /* sounds */,
 			);
 			path = "idm362-sam646";
 			sourceTree = "<group>";
@@ -144,9 +147,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		82E7B39E29803CFE002FEF30 /* PostureCheck */ = {
+		82E7B39E29803CFE002FEF30 /* PocketDrums */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 82E7B3B329803D00002FEF30 /* Build configuration list for PBXNativeTarget "PostureCheck" */;
+			buildConfigurationList = 82E7B3B329803D00002FEF30 /* Build configuration list for PBXNativeTarget "PocketDrums" */;
 			buildPhases = (
 				82E7B39B29803CFE002FEF30 /* Sources */,
 				82E7B39C29803CFE002FEF30 /* Frameworks */,
@@ -156,9 +159,9 @@
 			);
 			dependencies = (
 			);
-			name = PostureCheck;
+			name = PocketDrums;
 			productName = "idm362-sam646";
-			productReference = 82E7B39F29803CFE002FEF30 /* PostureCheck.app */;
+			productReference = 82E7B39F29803CFE002FEF30 /* PocketDrums.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -176,7 +179,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 82E7B39A29803CFE002FEF30 /* Build configuration list for PBXProject "PostureCheck" */;
+			buildConfigurationList = 82E7B39A29803CFE002FEF30 /* Build configuration list for PBXProject "PocketDrums" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -189,7 +192,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				82E7B39E29803CFE002FEF30 /* PostureCheck */,
+				82E7B39E29803CFE002FEF30 /* PocketDrums */,
 			);
 		};
 /* End PBXProject section */
@@ -209,6 +212,7 @@
 				82F9B3E329B43FA600010902 /* Poppins-BoldItalic.ttf in Resources */,
 				82F9B3E429B43FA600010902 /* Poppins-Light.ttf in Resources */,
 				82F9B3EE29B43FA600010902 /* Poppins-Black.ttf in Resources */,
+				82F9AA2C29CB8276008C3CC5 /* sounds in Resources */,
 				82F9B3F129B43FA600010902 /* Poppins-Italic.ttf in Resources */,
 				82F9B3E829B43FA600010902 /* Poppins-ExtraBold.ttf in Resources */,
 				82F9B3EC29B43FA600010902 /* Poppins-LightItalic.ttf in Resources */,
@@ -433,7 +437,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		82E7B39A29803CFE002FEF30 /* Build configuration list for PBXProject "PostureCheck" */ = {
+		82E7B39A29803CFE002FEF30 /* Build configuration list for PBXProject "PocketDrums" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				82E7B3B129803D00002FEF30 /* Debug */,
@@ -442,7 +446,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		82E7B3B329803D00002FEF30 /* Build configuration list for PBXNativeTarget "PostureCheck" */ = {
+		82E7B3B329803D00002FEF30 /* Build configuration list for PBXNativeTarget "PocketDrums" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				82E7B3B429803D00002FEF30 /* Debug */,

@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "PocketDrumsThumb.png",
+      "filename" : "classicdrum_info.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "PocketDrumsThumb 1.png",
+      "filename" : "classicdrum_info 1.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "PocketDrumsThumb 2.png",
+      "filename" : "classicdrum_info 2.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

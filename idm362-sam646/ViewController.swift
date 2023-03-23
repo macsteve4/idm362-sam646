@@ -9,10 +9,6 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    @IBOutlet weak var displayname: UITextField!
-    
-    public var completionHandler: ((String?) -> Void)?
-    
     override var preferredStatusBarStyle: UIStatusBarStyle {
         .lightContent
     }
@@ -20,21 +16,6 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-    }
-
-    @IBAction func setname(_ sender: Any) {
-        completionHandler?(displayname.text)
-    }
-    
-    /*
-    @IBAction func didTapSet() {
-        
-        completionHandler?(displayname.text)
-        
-    }
-    */
-    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-      view.endEditing(true)
     }
     
 }

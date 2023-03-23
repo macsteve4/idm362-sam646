@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "PocketDrumsThumb.png",
+      "filename" : "cymb1.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "PocketDrumsThumb 1.png",
+      "filename" : "cymb1 1.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "PocketDrumsThumb 2.png",
+      "filename" : "cymb1 2.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
