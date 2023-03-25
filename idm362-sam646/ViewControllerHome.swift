@@ -8,7 +8,7 @@
 import UIKit
 import AVFoundation
 
-// creating the vars to play the sounds
+// creating the vars to play the different sounds
 
 var cymb1Player = AVAudioPlayer()
 var cymb2Player = AVAudioPlayer()
@@ -160,9 +160,13 @@ class ViewControllerHome: UIViewController {
         frontname.text = namefield.text
     }
     
+    // to close the keyboard when the user taps off it
+    
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         view.endEditing(true)
     }
+    
+    // to limit the amount of text a user can put in the field
     
     func namefield(_ textField: UITextField) {
         namefield.text = String(namefield.text!.prefix(10))

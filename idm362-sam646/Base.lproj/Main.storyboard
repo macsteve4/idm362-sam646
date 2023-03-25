@@ -419,7 +419,7 @@ Go on and get drumming!</string>
         <image name="classicdrum5" width="724" height="714"/>
         <image name="classicdrum_info" width="400" height="343"/>
         <image name="cymb2" width="250" height="267"/>
-        <image name="cymb3" width="500" height="534"/>
+        <image name="cymb3" width="250" height="267"/>
         <image name="gearshape.2.fill" catalog="system" width="128" height="101"/>
         <image name="hockey.puck.fill" catalog="system" width="128" height="98"/>
         <image name="info.square.fill" catalog="system" width="128" height="114"/>
