@@ -55,27 +55,27 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="iPc-Fr-JvF" userLabel="Top Section">
-                                <rect key="frame" x="16" y="20" width="343" height="105.5"/>
+                                <rect key="frame" x="16" y="20" width="343.5" height="105.5"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="21" translatesAutoresizingMaskIntoConstraints="NO" id="iI2-Vq-l48">
-                                        <rect key="frame" x="0.0" y="0.0" width="343" height="105.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="343.5" height="105.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Let's Play!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qA8-cD-aiC">
-                                                <rect key="frame" x="0.0" y="0.0" width="343" height="50.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="343.5" height="50.5"/>
                                                 <fontDescription key="fontDescription" name="Poppins-Black" family="Poppins" pointSize="36"/>
                                                 <color key="textColor" red="0.93333339689999995" green="0.49803921579999999" blue="0.27843138579999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <stackView opaque="NO" contentMode="scaleToFill" spacing="13" translatesAutoresizingMaskIntoConstraints="NO" id="kzi-Bd-hpI">
-                                                <rect key="frame" x="0.0" y="71.5" width="343" height="34"/>
+                                                <rect key="frame" x="0.0" y="71.5" width="343.5" height="34"/>
                                                 <subviews>
                                                     <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name your session!  ie. &quot;9/5/23 Jam Sesh&quot;" textAlignment="natural" minimumFontSize="16" translatesAutoresizingMaskIntoConstraints="NO" id="JwL-gq-bT8">
-                                                        <rect key="frame" x="0.0" y="0.0" width="303" height="34"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="303.5" height="34"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                         <textInputTraits key="textInputTraits"/>
                                                     </textField>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lu2-rT-BfU">
-                                                        <rect key="frame" x="316" y="0.0" width="27" height="34"/>
+                                                        <rect key="frame" x="316.5" y="0.0" width="27" height="34"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="26"/>
                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                         <state key="normal">
@@ -252,7 +252,6 @@
                             <constraint firstItem="iPc-Fr-JvF" firstAttribute="leading" secondItem="aCJ-of-gjq" secondAttribute="leading" constant="16" id="3Mi-Um-pNV"/>
                             <constraint firstItem="iPc-Fr-JvF" firstAttribute="top" secondItem="aCJ-of-gjq" secondAttribute="top" constant="20" id="Jsg-2X-Gy8"/>
                             <constraint firstItem="aCJ-of-gjq" firstAttribute="trailing" secondItem="6G1-UU-f7N" secondAttribute="trailing" constant="16" id="er2-aL-f3P"/>
-                            <constraint firstItem="aCJ-of-gjq" firstAttribute="trailing" secondItem="iPc-Fr-JvF" secondAttribute="trailing" constant="16" id="mRf-PW-KPr"/>
                             <constraint firstItem="wzz-TI-b0p" firstAttribute="centerY" secondItem="zh5-cc-Smu" secondAttribute="centerY" id="umW-R0-109"/>
                             <constraint firstItem="aCJ-of-gjq" firstAttribute="bottom" secondItem="6G1-UU-f7N" secondAttribute="bottom" constant="32" id="ush-xW-sY7"/>
                             <constraint firstAttribute="centerX" secondItem="6G1-UU-f7N" secondAttribute="centerX" id="uz7-Iq-y28"/>
@@ -279,10 +278,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="26" translatesAutoresizingMaskIntoConstraints="NO" id="vo2-jW-qHu">
-                                <rect key="frame" x="16" y="20" width="343" height="50.5"/>
+                                <rect key="frame" x="16" y="20" width="343" height="42"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KOk-q8-bWI">
-                                        <rect key="frame" x="0.0" y="0.0" width="343" height="50.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="343" height="42"/>
                                         <fontDescription key="fontDescription" name="Poppins-Black" family="Poppins" pointSize="36"/>
                                         <color key="textColor" red="0.93333339689999995" green="0.49803921579999999" blue="0.27843138579999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <nil key="highlightedColor"/>
@@ -290,7 +289,7 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="21" translatesAutoresizingMaskIntoConstraints="NO" id="J5J-aG-Cyd" userLabel="Info Section">
-                                <rect key="frame" x="35" y="105" width="305" height="401.5"/>
+                                <rect key="frame" x="35" y="96.5" width="305" height="343.5"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Icon_Ref" translatesAutoresizingMaskIntoConstraints="NO" id="QrH-ae-kG3">
                                         <rect key="frame" x="0.0" y="0.0" width="305" height="70"/>
@@ -299,25 +298,25 @@
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PocketDrums" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S02-YW-n8f">
-                                        <rect key="frame" x="0.0" y="91" width="305" height="31"/>
+                                        <rect key="frame" x="0.0" y="91" width="305" height="26"/>
                                         <fontDescription key="fontDescription" name="Poppins-Bold" family="Poppins" pointSize="22"/>
                                         <color key="textColor" red="0.93333339689999995" green="0.49803921579999999" blue="0.27843138579999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Version: 0.3 (RK8931)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uZA-oO-1xw">
-                                        <rect key="frame" x="0.0" y="143" width="305" height="20"/>
+                                        <rect key="frame" x="0.0" y="138" width="305" height="16.5"/>
                                         <fontDescription key="fontDescription" name="Poppins-Light" family="Poppins" pointSize="14"/>
                                         <color key="textColor" red="0.93333339689999995" green="0.49803921579999999" blue="0.27843138579999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PocketDrums is a lightweight and easy way to remember the beats in your head or play along to your favorite songs." lineBreakMode="tailTruncation" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="55G-2R-qcE">
-                                        <rect key="frame" x="0.0" y="184" width="305" height="59"/>
+                                        <rect key="frame" x="0.0" y="175.5" width="305" height="49"/>
                                         <fontDescription key="fontDescription" name="Poppins-Italic" family="Poppins" pointSize="14"/>
                                         <color key="textColor" red="0.93333339689999995" green="0.49803921579999999" blue="0.27843138579999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bRj-1P-dOD">
-                                        <rect key="frame" x="0.0" y="264" width="305" height="137.5"/>
+                                        <rect key="frame" x="0.0" y="245.5" width="305" height="98"/>
                                         <string key="text">You can name drum sessions, and use the built-in iOS screen recorder to keep track of when you jam. You can also play along to music from another app, and record that too. 
 
 Go on and get drumming!</string>
@@ -354,8 +353,8 @@ Go on and get drumming!</string>
                         <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="19" translatesAutoresizingMaskIntoConstraints="NO" id="XI9-KK-Hpz">
-                                <rect key="frame" x="16" y="20" width="343" height="551.5"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="XI9-KK-Hpz">
+                                <rect key="frame" x="16" y="20" width="343" height="553.5"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="67" translatesAutoresizingMaskIntoConstraints="NO" id="gLW-sK-ZpB">
                                         <rect key="frame" x="0.0" y="0.0" width="343" height="34"/>
@@ -369,13 +368,13 @@ Go on and get drumming!</string>
                                         </subviews>
                                     </stackView>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="classicdrum_info" translatesAutoresizingMaskIntoConstraints="NO" id="cyv-ku-YdC">
-                                        <rect key="frame" x="0.0" y="53" width="343" height="300"/>
+                                        <rect key="frame" x="0.0" y="54" width="343" height="300"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="300" id="QX1-3c-ldR"/>
                                         </constraints>
                                     </imageView>
                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vaa-PE-B3O">
-                                        <rect key="frame" x="0.0" y="372" width="343" height="179.5"/>
+                                        <rect key="frame" x="0.0" y="374" width="343" height="179.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vlq-sd-mff">
                                                 <rect key="frame" x="0.0" y="0.0" width="343" height="179.5"/>
@@ -420,7 +419,7 @@ Go on and get drumming!</string>
         <image name="classicdrum5" width="724" height="714"/>
         <image name="classicdrum_info" width="400" height="343"/>
         <image name="cymb2" width="250" height="267"/>
-        <image name="cymb3" width="250" height="267"/>
+        <image name="cymb3" width="500" height="534"/>
         <image name="gearshape.2.fill" catalog="system" width="128" height="101"/>
         <image name="hockey.puck.fill" catalog="system" width="128" height="98"/>
         <image name="info.square.fill" catalog="system" width="128" height="114"/>

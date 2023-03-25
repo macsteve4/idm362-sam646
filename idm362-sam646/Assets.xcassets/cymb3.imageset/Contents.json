@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "cymb3.png",
+      "filename" : "cymb3_fix.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "cymb3 1.png",
+      "filename" : "cymb3_fix 1.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "cymb3 2.png",
+      "filename" : "cymb3_fix 2.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
